@@ -1,7 +1,9 @@
-dist: xenial
+dist: trusty
 language: java
-sudo: false
-jdk: jdk-11.0.10
+jdk:
+- oraclejdk11
+before_install:
+- export TZ=Brazil/East
 install: true
 cache:  
   directories:
