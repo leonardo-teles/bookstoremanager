@@ -61,11 +61,9 @@
 		</dependency>
 		
 		<dependency>
-	      <groupId>org.springdoc</groupId>
-	      <artifactId>springdoc-openapi-ui</artifactId>
-	      <version>1.6.7</version>
-	   </dependency>
-	   				
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
